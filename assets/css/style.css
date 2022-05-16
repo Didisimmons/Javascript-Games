@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color:#FBEAFF;
+}
+
+button{
+    margin:10px 5px;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+
+.game-content{
+    padding: 16rem 0;
+}
+
+#grid{
+    width:400px;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+h2{
+    padding:1rem;
+}
+
+.controls{
+   padding-top:2rem;
+}
+
+.return-back a{
+    text-decoration: none;
+    color: black;
+}
+
+.skip-next a{
+    text-decoration: none;
+    color: black;
+}
+
+.return-back a:hover {
+    color:blue;
+}
+
+.skip-next a:hover{
+    color: blue;
+}
