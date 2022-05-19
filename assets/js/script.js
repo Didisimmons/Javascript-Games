@@ -64,7 +64,7 @@ const cardsWon = []
 function createBoard(){
     for(let i = 0; i < cardArray.length; i++){
         const card = document.createElement('img')
-        card.setAttribute('src', '../assets/images/blank.png')
+        card.setAttribute('src', 'assets/images/blank.png')
         card.setAttribute('data-id', i) // give each card a unique data-id
         card.addEventListener('click', flipCard)
         gridDisplay.appendChild(card)
