@@ -68,5 +68,6 @@ h2{
 }
 
 .mole{
-    background-color: blue;
+    background-image: url('../images/mole.jpeg');
+    background-size: cover;
 }

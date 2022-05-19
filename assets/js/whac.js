@@ -5,7 +5,7 @@ const score = document.getElementById('score')
 
 let result = 0
 let hitPosition 
-let currentTime = 10
+let currentTime = 60
 let timeId = null
 
 function randomSquare(){
@@ -42,5 +42,6 @@ function countDown(){
         clearInterval(timeId)
         alert('Gameover ! Your final score is ' + result)
     }
+   
 }
 let countDownTimerId = setInterval(countDown, 1000)

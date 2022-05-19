@@ -1,51 +1,51 @@
 const cardArray = [
     {
         name: 'fries',
-        img:'../assets/images/fries.png',
+        img:'assets/images/fries.png',
     },
     {
         name: 'cheeseburger',
-        img:'../assets/images/cheeseburger.png',
+        img:'assets/images/cheeseburger.png',
     },
     {
         name: 'hotdog',
-        img:'../assets/images/hotdog.png'
+        img:'assets/images/hotdog.png'
     },
     {
         name: 'ice-cream',
-        img:'../assets/images/ice-cream.png',
+        img:'assets/images/ice-cream.png',
     },
     {
         name: 'pizza',
-        img:'../assets/images/pizza.png',
+        img:'assets/images/pizza.png',
     },
     {
         name: 'milkshake',
-        img:'../assets/images/milkshake.png',
+        img:'assets/images/milkshake.png',
     },
     {
         name: 'fries',
-        img:'../assets/images/fries.png',
+        img:'assets/images/fries.png',
     },
     {
         name: 'cheeseburger',
-        img:'../assets/images/cheeseburger.png',
+        img:'assets/images/cheeseburger.png',
     },
     {
         name: 'hotdog',
-        img:'../assets/images/hotdog.png'
+        img:'assets/images/hotdog.png'
     },
     {
         name: 'ice-cream',
-        img:'../assets/images/ice-cream.png',
+        img:'assets/images/ice-cream.png',
     },
     {
         name: 'pizza',
-        img:'../assets/images/pizza.png',
+        img:'assets/images/pizza.png',
     },
     {
         name: 'milkshake',
-        img:'../assets/images/milkshake.png',
+        img:'assets/images/milkshake.png',
     }
 ]
 
