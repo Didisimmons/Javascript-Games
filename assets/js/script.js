@@ -77,23 +77,23 @@ function checkMatch(){
     const optionOneId = cardsChosenIds[0]
     const optionTwoId = cardsChosenIds[1]
     if (optionOneId == optionTwoId){
-        cards[optionOneId].setAttribute('src', '../assets/images/blank.png')
-        cards[optionTwoId].setAttribute('src', '../assets/images/blank.png')
+        cards[optionOneId].setAttribute('src', 'assets/images/blank.png')
+        cards[optionTwoId].setAttribute('src', 'assets/images/blank.png')
         alert("You've clicked the same image")
     }
 
     if(cardsChosen[0] == cardsChosen[1]){
         alert("You've found a match !")
-        cards[optionOneId].setAttribute('src', '../assets/images/white.png')
-        cards[optionTwoId].setAttribute('src', '../assets/images/white.png')
+        cards[optionOneId].setAttribute('src', 'assets/images/white.png')
+        cards[optionTwoId].setAttribute('src', 'assets/images/white.png')
         // remove event listener from card already matched. 
         cards[optionOneId].removeEventListener('click', flipCard)
         cards[optionTwoId].removeEventListener('click', flipCard)
         // push cards matched to array
         cardsWon.push(cardsChosen)
     } else{
-        cards[optionOneId].setAttribute('src', '../assets/images/blank.png')
-        cards[optionTwoId].setAttribute('src', '../assets/images/blank.png')
+        cards[optionOneId].setAttribute('src', 'assets/images/blank.png')
+        cards[optionTwoId].setAttribute('src', 'assets/images/blank.png')
         alert('Sorry try again!')
     }
     scoreDisplay.textContent = cardsWon.length
